@@ -1,3 +1,14 @@
+#Virtual Environment
+venv/
+
+#flask
+instance/*
+!instance/.gitignore
+.webassets-cache
+
+# flask.python stack
+# byte-comiled / optimized / DLL files
+*$py.class
 core.Microsoft*
 core.mongo*
 core.python*
